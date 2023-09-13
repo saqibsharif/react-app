@@ -23,7 +23,7 @@ const NewsLetter = () => {
           </div>
           <p>
             We care about the protection of your data. Read our{" "}
-            <a className="text-[#00df9a] underline" href="#">
+            <a className="text-[#00df9a] underline" href="index.html">
               Privacy Policy.
             </a>
           </p>
