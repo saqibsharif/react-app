@@ -12,11 +12,19 @@ const Navbar = () => {
     <div className="flex justify-between h-24 px-4 max-w-[1240px] items-center mx-auto text-white">
       <h1 className="w-full text-3xl font-bold text-[#00df9a]">REACT.</h1>
       <ul className="hidden md:flex">
-        <li className="p-4">Home</li>
-        <li className="p-4">Company</li>
-        <li className="p-4">Resources</li>
-        <li className="p-4">About</li>
-        <li className="p-4">Contact</li>
+        <li className="p-4 transition-transform hover:scale-110">Home</li>
+        <li className="p-4 transition-transform duration-300 hover:scale-110">
+          Company
+        </li>
+        <li className="p-4 transition-transform duration-300 hover:scale-110">
+          Resources
+        </li>
+        <li className="p-4 transition-transform duration-300 hover:scale-110">
+          About
+        </li>
+        <li className="p-4 transition-transform duration-300 hover:scale-110">
+          Contact
+        </li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
         {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
